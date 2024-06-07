@@ -63,16 +63,7 @@ body {
 }
 
 .gambar-utama:hover,.gambar-samping img:hover{
-    scale: 1.05;
-    z-index: 1;
-}
-
-.gambar-utama:hover{
-    scale: 1.02;
-}
-.gambar-samping img:hover{
-    scale: 1.05;
-    z-index: 1;
+        filter: brightness(70%);
 }
 
 .lihat-semua {
