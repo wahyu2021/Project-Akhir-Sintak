@@ -1,0 +1,128 @@
+.subjudul{
+    color: rgb(72, 67, 67);
+}
+
+.card-1{
+    background-image: url(Assets/destinasi/singapur.jpg);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.card-2{
+    background-image: url(Assets/destinasi/malaysia.jpg);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.card-3{
+    background-image: url(Assets/destinasi/thailand.jpg);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.card-4{
+    background-image: url(Assets/destinasi/jepang.jpg);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.card-5{
+    background-image: url(Assets/destinasi/korea.avif);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.card-6{
+    background-image: url(Assets/destinasi/australia.webp);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.card-7{
+    background-image: url(Assets/destinasi/bali.jpg);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.card-8{
+    background-image: url(Assets/destinasi/phuket.jpg);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.card-9{
+    background-image: url(Assets/destinasi/hebrides.jpg);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.card-10{
+    background-image: url(Assets/destinasi/roma.jpg);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.card-11{
+    background-image: url(Assets/destinasi/maladewa.webp);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.card-12{
+    background-image: url(Assets/destinasi/venice.webp);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.card{
+    height: 30vh;
+    transition: all .3s ease;
+    box-sizing: border-box;
+}
+
+.card-body{
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.card:hover{
+    scale: 1.1;
+    z-index: 1;
+}
+
+.card-title{
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-text{
+    color: white;
+    font-size: .8rem;
+}
+
+.text-judul{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px){
+    .text-judul{
+        font-size: 1.5rem;
+    }
+    .card{
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .card{
+        height: 20vh;
+    }
+
+    .card-title{
+        font-size: 1.25rem;
+    }
+}

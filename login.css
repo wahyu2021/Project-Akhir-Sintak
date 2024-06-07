@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(Assets/bg.jpeg);
+}
+
+.navbar .brand {
+  width: 600px;
+}
+
+.posisi {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 30px;
+}
+
+.log-in {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+
+.masuk {
+  text-align: center;
+  font-family: monospace;
+  font-size: 30px;
+  color: #176b87;
+  margin-top: 5px;
+}
+
+.login-container {
+  background: #c0c0c0bb;
+  padding: 20px 25px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  width: 400px;
+  height: 600px;
+}
+
+.username label, .password label {
+  margin-left: .5rem;
+  text-align: left;
+  font-size: 16px;
+  color: #302f2f;
+}
+
+.username input, .password input {
+  width: 100%;
+  padding: 10px;
+  border: transparent;
+  border-radius: 20px;
+  font-family: monospace;
+  font-size: 14px;
+  box-shadow: 0 4px 8px rgba(160, 160, 160, 0.466);
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  outline:2px solid #176b87;
+  background: transparent;
+  border: none;
+  box-shadow: 0 4px 8px rgba(160, 160, 160, 0.466);
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: monospace;
+  transition: background-color .3s ease;
+}
+
+button:hover{
+    background-color: #176b87;
+}
+
+button:active {
+  scale: .95;
+}
+
+.bi-arrow-left-square-fill:active{
+  scale: .95;
+}
+
+.submit, .sign-up #signUp, .daftar, .kembali{
+    border-radius: 12px;
+}
+
+.social-button {
+  border-radius: 12px;
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.social-login p {
+  color: #ffffff;
+}
+

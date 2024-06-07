@@ -1,0 +1,277 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(207, 207, 207);
+    
+}
+
+.header {
+    padding: 20px;
+
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.rating {
+    color: gold;
+    font-size: 18px;
+}
+
+.location {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.location a {
+    color: #176B87;
+    text-decoration: none;
+}
+
+.gambar {
+    display: flex;
+}
+
+.gambar-utama {
+    flex: 2;
+    transition: all .3s ease;
+}
+
+.gambar-utama img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.gambar-samping {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 14px;
+}
+
+.gambar-samping img {
+    transition: all .3s ease;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.gambar-utama:hover,.gambar-samping img:hover{
+    scale: 1.05;
+    z-index: 1;
+}
+
+.gambar-utama:hover{
+    scale: 1.02;
+}
+.gambar-samping img:hover{
+    scale: 1.05;
+    z-index: 1;
+}
+
+.lihat-semua {
+    display: block;
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+    background-color: #176B87;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+.lihat-semua:hover {
+    background-color: #004f69;
+    
+}
+
+
+.pembayaran {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #e7e7e7;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    margin-top: 5px;
+    
+
+}
+
+/* ratting */
+.rating-1 {
+    align-self: self-start;
+    display: flex;
+    align-items: center;
+}
+
+.rating-score {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.rating-text {
+    margin-right: 10px;
+}
+
+.reviews-count {
+    font-size: 14px;
+    color: #176B87  ;
+}
+
+/* harga */
+.harga {
+    text-align: right;
+}
+
+.harga-value {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #176B87;
+}
+
+/* button select room */
+.select-room {
+    padding: 10px 20px;
+    background-color: #176B87;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 150px;
+}
+
+.select-room:hover {
+    background-color: #004f69;
+}
+
+/* akomodasi */
+
+.akomodasi, .strategic-location, .main-facilities {
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+
+}
+
+.akomodasi{
+    width: 30%;
+    height: 195px;
+}
+
+.akomodasi h2 {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.akomodasi h2 a {
+    color: #176B87;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.akomodasi p {
+    font-size: 15px;
+    color: #333;
+}
+
+.akomodasi .check-in {
+    font-weight: bold;
+}
+/* stategic lokasi */
+
+.lokasi {
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 670px;
+    margin-left: 20px;
+
+}
+
+.lokasi h2 {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lokasi h2 a {
+    color: #176B87;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.lokasi p {
+    font-size: 15px;
+    color: #333;
+}
+.box{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.fasilitas{
+    margin-left: 140px;
+    display: flex;
+    margin-top: 10px;
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 79%;
+    font-weight: bold;
+}
+.fasilitas1{
+    text-align: left;
+    
+}
+
+.tulisan-readmore{
+    color: #176B87;
+    text-decoration: none;
+    font-size: 14px;
+}
+.fasility-items span{
+    padding: 10px;
+}
+
+.facility-item{
+    margin: 20px 0;
+}
+
+.map{
+    margin-left: 50px;
+}
+
+.back-to-home{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 16px;
+}
+
+.back-to-home a{
+    background-color: #e7e7e7;
+    padding: 6px 18px;
+    border-radius: 6px;
+    color: black;
+    text-decoration: none;
+}
