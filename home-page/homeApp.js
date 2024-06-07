@@ -2,6 +2,10 @@ const navbar = document.querySelector('.navbar');
 const navLinks = document.querySelectorAll('.nav-link');
 const navBorder = document.querySelector('.nav-border');
 const btnPesan = document.querySelector('#btnPesan');
+const penerbanganGroup = document.querySelector('.penerbangan-group');
+const hotelGroup = document.querySelector('.hotel-group');
+const busGroup = document.querySelector('.bus-group');
+const titlePopulers = document.querySelectorAll('.title-populer');
 const threshold = 50;
 const screenWidth = window.innerWidth;
 
@@ -43,4 +47,40 @@ btnPesan.addEventListener('click', () => {
       });
     }
   });
+})
+
+const removeActiveClass = () => {
+  titlePopulers.forEach((titlePopuler) => {
+    titlePopuler.classList.remove('this-menu');
+  });
+}
+
+// penerbangan
+document.querySelector('#penerbangan').addEventListener('click', () => {
+  // display
+  removeActiveClass();
+  penerbanganGroup.style.display = 'flex';
+  hotelGroup.style.display = 'none';
+  busGroup.style.display = 'none';
+
+  // change menu
+  document.querySelector('#penerbangan').classList.add('this-menu')
+})
+
+// hotel
+document.querySelector('#hotel').addEventListener('click', () => {
+  removeActiveClass();
+  penerbanganGroup.style.display = 'none';
+  hotelGroup.style.display = 'flex';
+  busGroup.style.display = 'none';
+  document.querySelector('#hotel').classList.add('this-menu')
+})
+
+// bus
+document.querySelector('#bus').addEventListener('click', () => {
+  removeActiveClass();
+  penerbanganGroup.style.display = 'none';
+  hotelGroup.style.display = 'none';
+  busGroup.style.display = 'flex';
+  document.querySelector('#bus').classList.add('this-menu')
 })

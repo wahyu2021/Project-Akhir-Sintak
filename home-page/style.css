@@ -210,6 +210,11 @@ swiper-slide img{
     font-size: 1.75rem;
 }
 
+.icon-judul-populer{
+    font-size: 1.75rem;
+    color: rgb(72, 67, 67);
+}
+
 .diskon{
     font-size: 2rem;
     font-weight: 700;
@@ -234,6 +239,66 @@ swiper-slide img{
     color: rgb(182, 182, 182);
 }
 
+.text-color{
+    color: #404040;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.populer{
+    height: 35px;
+    border-bottom: 2px solid #acacac1e;
+}
+
+.text-judul-populer{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(72, 67, 67);
+}
+
+.title-populer{
+    transition: border-bottom .1s ease;
+}
+
+.title-populer:hover{
+    border-bottom: 4px solid #5d80ad;
+}
+
+.item-populer a {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #808080;
+}
+
+.item-populer a:hover {
+    color: #5d80ad;
+}
+
+.item-populer{
+    margin: 20px 0;
+}
+
+.this-menu{
+    color: #5d80ad;
+    border-bottom: 4px solid #5d80ad;
+}
+
+.penerbangan-group{
+    display: flex;
+}
+
+.hotel-group{
+    display: none;
+}
+
+.bus-group{
+    display: none;
+}
 
 
 /* breakpoint */
